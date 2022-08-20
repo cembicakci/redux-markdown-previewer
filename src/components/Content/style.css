@@ -9,7 +9,7 @@
 .content-right {
     width: 45%;
     height: 100%;
-    padding: 20px;
+    padding: 20px 40px;
     box-shadow: 10px 10px #646464;
     background-color: #ffdd67;
 }
@@ -18,7 +18,7 @@
     resize: none;
     outline: none;
     overflow-x: hidden;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border: 0;
     margin-right: 20px;
     color: #4a4a4a;

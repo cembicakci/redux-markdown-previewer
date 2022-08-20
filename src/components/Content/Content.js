@@ -9,16 +9,18 @@ import { setMarkDownText } from '../../redux/textSlice'
 function Content() {
   const dispatch = useDispatch()
 
+  const helpItems = useSelector(state => state.text.helpItems)
   const markdownText = useSelector(state => state.text.markdownText)
+  const questionBtn = useSelector(state => state.text.questionBtn)
   console.log(markdownText)
 
 
   return (
     <div className='content'>
-      <textarea className='content-left' value={markdownText} onChange={(e) => dispatch(setMarkDownText(e.target.value))}/>
+      <textarea className='content-left' value={questionBtn ? helpItems : markdownText} onChange={(e) => dispatch(setMarkDownText(e.target.value))}/>
 
       <div className='content-right'>
-        <ReactMarkdown children={markdownText} remarkPlugins={[remarkGfm]} />
+        <ReactMarkdown children={questionBtn ? helpItems : markdownText} remarkPlugins={[remarkGfm]} />
       </div>
 
 

@@ -23,7 +23,7 @@ header{
     box-shadow: 7px 7px rgba(74, 74, 74, .7);
 }
 
-.header-btn:active{
+.header-btn.active{
     box-shadow: none;
 }
 
