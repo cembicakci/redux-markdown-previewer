@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title{
+    order: 2;
+}
+
+.header-btn{
+    align-self: flex-end;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    box-shadow: 10px 10px #646464;
+    background-color: #ffeeb4;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-out;
+
+}
+
+.header-btn:hover{
+    box-shadow: 7px 7px rgba(74, 74, 74, .7);
+}
+
+.header-btn:active{
+    box-shadow: none;
+}
+
+.header-btn i{
+    font-size: 2rem;
+    padding: 5px 10px;
+}
+
