@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/redux-markdown-previewer/static/css/main.3ae512f5.css",
+    "main.js": "/redux-markdown-previewer/static/js/main.2ec5691c.js",
+    "index.html": "/redux-markdown-previewer/index.html",
+    "main.3ae512f5.css.map": "/redux-markdown-previewer/static/css/main.3ae512f5.css.map",
+    "main.2ec5691c.js.map": "/redux-markdown-previewer/static/js/main.2ec5691c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ae512f5.css",
+    "static/js/main.2ec5691c.js"
+  ]
+}
